@@ -22,6 +22,8 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 - `src/app/api/attempts/**` — HTTP route'lar. Auth: `Authorization: tma <initData>`; lokal devda `DEV_TELEGRAM_ID`
 - `src/app/exam/ExamApp.tsx`, `src/components/QuestionView.tsx` — Mini App UI
 - `src/bot/bot.ts` — grammY bot: faqat shaxsiy chatda /start, /help → "Imtihonni ochish" web_app tugmasi. Xatolar `errorBoundary` da (webhook'da `bot.catch` ishlamaydi)
+- `src/server/access.ts` — yopiq pilot: `invites` jadvali, `redeemInvite` (limit UPDATE ichida, atomik), `hasAccess`. `ACCESS_MODE=invite|open`, `ADMIN_TELEGRAM_IDS`. Ruxsatsiz API so'rovi 403 (dev kirishda tekshirilmaydi)
+- Bot buyruqlari: `/start KOD` (deep link `t.me/<bot>?start=KOD`) yoki kodni oddiy xabar bilan; `/id`; admin: `/invite [joylar] [izoh]`, `/invites`, `/disable KOD`
 - `src/app/api/bot/route.ts` — webhook; `X-Telegram-Bot-Api-Secret-Token` ≠ `TELEGRAM_WEBHOOK_SECRET` bo'lsa 401
 
 ## Qoidalar (buzmang)
@@ -32,7 +34,7 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 5. Mualliflik: yozma ruxsatsiz ochiq/pullik ishga tushirmaymiz (Alijonov, Usmonov; Tilavaddinov).
 
 ## Holat
-- Tayyor: backend, Mini App UI (barcha savol turlari, mobil), bot webhook
+- Tayyor: backend, Mini App UI (barcha savol turlari, mobil), bot webhook, yopiq kirish (taklif kodlari)
 - Keyingi ish: deploy (Vercel + Neon) → `import:exam` → `bot:webhook` → haqiqiy Telegram ichida sinash
 Savol turlari uchun `data/exams/v07.json` ga qarang. O'zbek lotin interfeys.
 

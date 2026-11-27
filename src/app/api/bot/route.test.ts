@@ -11,6 +11,7 @@ beforeAll(() => {
   process.env.TELEGRAM_BOT_TOKEN = "123:TEST";
   process.env.TELEGRAM_WEBHOOK_SECRET = SECRET;
   process.env.APP_URL = "https://daraja.example";
+  process.env.ACCESS_MODE = "open"; // bu test faqat webhook qatlamini tekshiradi; ruxsat oqimi bot.test.ts da
   // Telegram API o'rniga: getMe va sendMessage ni soxtalashtiramiz
   getBot().api.config.use(async (_prev, method) => {
     if (failNext && method === "sendMessage") { failNext = false; throw new Error("tarmoq"); }

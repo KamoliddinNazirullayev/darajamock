@@ -8,6 +8,13 @@
       "when": 1795445120859,
       "tag": "0000_previous_namor",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795781668471,
+      "tag": "0001_invites",
+      "breakpoints": true
     }
   ]
 }

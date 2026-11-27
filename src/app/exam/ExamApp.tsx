@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { api, unitKeys, type AttemptState, type ResultDto } from "@/lib/api-client";
 import { QuestionView } from "@/components/QuestionView";
 
-type Phase = "loading" | "intro" | "exam" | "result" | "error";
+type Phase = "loading" | "intro" | "exam" | "result" | "error" | "closed";
 type SaveStatus = "idle" | "saving" | "saved" | "failed";
 
 function fmt(sec: number) {
@@ -50,9 +50,9 @@ export default function ExamApp() {
       setLeft(s.secondsLeft);
       setIdx(0);
       setPhase("exam");
-    } catch (e) {
+    } catch (e: any) {
       setError(e instanceof Error ? e.message : "Xatolik");
-      setPhase("error");
+      setPhase(e?.status === 403 ? "closed" : "error");
     } finally {
       setBusy(false);
     }
@@ -139,6 +139,16 @@ export default function ExamApp() {
   }, [idx, phase]);
 
   if (phase === "loading") return <main className="center">Yuklanmoqda…</main>;
+
+  // 403: yopiq pilot, taklif kodi yo'q. Qayta urinish foyda bermaydi, kodni botga yuborish kerak
+  if (phase === "closed")
+    return (
+      <main className="intro">
+        <h1>DARAJA</h1>
+        <p>{error}</p>
+        <button className="btn primary" onClick={() => window.Telegram?.WebApp?.close()}>Botga qaytish</button>
+      </main>
+    );
 
   if (phase === "error")
     return (
