@@ -28,6 +28,17 @@ export const questions = pgTable(
   (t) => [uniqueIndex("questions_exam_position").on(t.examId, t.position)],
 );
 
+/** Yopiq pilot uchun taklif kodlari: /start KOD yoki t.me/<bot>?start=KOD */
+export const invites = pgTable("invites", {
+  code: text("code").primaryKey(), // katta harf, [A-Z0-9-]
+  maxUses: integer("max_uses").notNull(),
+  usedCount: integer("used_count").notNull().default(0),
+  note: text("note"),
+  disabled: boolean("disabled").notNull().default(false),
+  createdBy: bigint("created_by", { mode: "number" }), // admin telegram id
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
 export const users = pgTable("users", {
   id: serial("id").primaryKey(),
   telegramId: bigint("telegram_id", { mode: "number" }).notNull().unique(),
@@ -35,6 +46,8 @@ export const users = pgTable("users", {
   firstName: text("first_name"),
   language: text("language").notNull().default("uz"),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  accessGrantedAt: timestamp("access_granted_at", { withTimezone: true }), // null = kirish yo'q (invite rejimida)
+  inviteCode: text("invite_code").references(() => invites.code),
 });
 
 export const attempts = pgTable("attempts", {
