@@ -8,7 +8,8 @@
     "start": "next start",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "import:exam": "tsx scripts/import-exam.ts"
+    "import:exam": "tsx scripts/import-exam.ts",
+    "bot:webhook": "tsx scripts/set-webhook.ts"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
