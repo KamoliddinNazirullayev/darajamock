@@ -8,6 +8,8 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 - `npm run typecheck`, `npm run build`
 - `DATABASE_URL=... npm run import:exam -- data/exams/v07.json` — variantni bazaga yozish (idempotent)
 - `npx drizzle-kit generate` / `migrate` — migratsiyalar (drizzle/)
+- `TELEGRAM_BOT_TOKEN=... TELEGRAM_WEBHOOK_SECRET=... APP_URL=https://... npm run bot:webhook` — deploy'dan keyin webhook, menyu tugmasi va buyruqlarni o'rnatadi (`-- --delete` o'chiradi)
+- Muhit o'zgaruvchilari: `.env.example`
 
 ## Arxitektura
 - `src/lib/exam-schema.ts` — imtihon JSON sxemasi (zod) va `flattenUnits` (55 baholanadigan birlik: 32 yopiq + 3 blok(33–35) + 20 ochiq qism)
@@ -16,6 +18,9 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 - `src/db/schema.ts` — exams, questions (payload=talabaga ko'rinadi; answer_key=kalit), users, attempts, answers
 - `src/server/attempts.ts` — start/state/saveAnswer/submit/result; deadline faqat serverda, 5 s grace
 - `src/app/api/attempts/**` — HTTP route'lar. Auth: `Authorization: tma <initData>`; lokal devda `DEV_TELEGRAM_ID`
+- `src/app/exam/ExamApp.tsx`, `src/components/QuestionView.tsx` — Mini App UI
+- `src/bot/bot.ts` — grammY bot: faqat shaxsiy chatda /start, /help → "Imtihonni ochish" web_app tugmasi. Xatolar `errorBoundary` da (webhook'da `bot.catch` ishlamaydi)
+- `src/app/api/bot/route.ts` — webhook; `X-Telegram-Bot-Api-Secret-Token` ≠ `TELEGRAM_WEBHOOK_SECRET` bo'lsa 401
 
 ## Qoidalar (buzmang)
 1. Kalit (`answerKey`, `correct`, `accepted`, yillar, `key_note`) hech qachon API javobiga/klientga chiqmaydi. Testlar tekshiradi.
@@ -24,8 +29,9 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 4. Yangi variant = JSON (sxemaga mos) + import; kodga tegilmaydi. Barcha savollar `verified=false` dan boshlanadi.
 5. Mualliflik: yozma ruxsatsiz ochiq/pullik ishga tushirmaymiz (Alijonov, Usmonov; Tilavaddinov).
 
-## Keyingi ish (3-kun): Mini App UI
-Savol komponentlari: yopiq, xronologiya, moslashtirish (I–IV/a–f), jadval (fill/select), rasm/Venn, blok 33–35 (umumiy A–F), ochiq a/b; savol xaritasi, taymer, avtosaqlash (yopiq: darhol, ochiq: debounce), natija ekrani. Keyin bot webhook (grammY) va deploy (Vercel + Neon).
+## Holat
+- Tayyor: backend, Mini App UI (barcha savol turlari, mobil), bot webhook
+- Keyingi ish: deploy (Vercel + Neon) → `import:exam` → `bot:webhook` → haqiqiy Telegram ichida sinash
 Savol turlari uchun `data/exams/v07.json` ga qarang. O'zbek lotin interfeys.
 
 ## Ochiq muammolar
