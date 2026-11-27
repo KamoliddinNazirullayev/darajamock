@@ -1,0 +1,1217 @@
+{
+ "variant_id": "v07",
+ "source": {
+  "file": "Tarix_Milliy_Sertifikat__7_Javobli.pdf",
+  "label": "TMS II variant",
+  "authors": [
+   "Azizjon Alijonov",
+   "Javohir Usmonov"
+  ],
+  "book_pages": "15-26",
+  "obtained_from": "mualliflar (foydalanuvchining do‘stlari), og‘zaki rozilik",
+  "permission_status": "yozma ruxsat kutilmoqda",
+  "transcription": "skan sahifalardan qo‘lda (vizual) transkripsiya; kalit = mualliflarniki"
+ },
+ "scoring_note": "points — mualliflar ko‘rsatgan og‘irliklar (rasmiy emas)",
+ "questions": [
+  {
+   "no": 1,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Oʻrta asrlarda Germaniya shimolidagi shaharlarning yuksalishi qaysi voqea ortida yuz berganligini aniqlang.",
+   "items": null,
+   "options": {
+    "A": "Dengizdagi savdoda Daniya qiroli bilan ittifoq tuzganligi",
+    "B": "Nemis knyazlari, salibchi ritsarlarning Boltiq boʻyidagi istilolari",
+    "C": "XIV asrning 70-yillarida Daniya qiroliga zarba berganligi",
+    "D": "Fridrix II ning Italiyadagi muvaffaqiyati"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 1
+  },
+  {
+   "no": 2,
+   "type": "single",
+   "points": 2.2,
+   "stem": "XIX asrning oʻrtalarida Sharqiy Turkistonda Xitoyga qarshi Jahongirxoʻja va ukasi Yusufxoʻja qoʻzgʻalonining magʻlubiyatga uchrashi qaysi jarayon natijasida sodir boʻldi?",
+   "items": null,
+   "options": {
+    "A": "moliyaviy qiyinchiliklar sababli;",
+    "B": "Yusufxoʻjaning taslimchilik siyosati;",
+    "C": "Xitoy hukumatining katta qoʻshinidan yengilishi;",
+    "D": "qoʻzgʻalonchilar safida birlik yoʻqligi, Qoʻqon oʻz qoʻshinini chaqirib olganligi"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 1
+  },
+  {
+   "no": 3,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Qadimgi dunyo tarixida aholisi ogʻir mehnat va salomatlikka zarar yetkazuvchi ishlardan ozod qilingan davlatni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "Rim",
+    "B": "Afina",
+    "C": "Misr",
+    "D": "Sparta"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 1
+  },
+  {
+   "no": 4,
+   "type": "chronology",
+   "points": 3.2,
+   "stem": "Quyidagi tarixiy voqealar (maʼlumotlar) toʻgʻri xronologik ketma-ketlikda koʻrsatilgan javobni toping.",
+   "items": [
+    {
+     "text": "Panama kanali qurilishi tugallandi",
+     "year": 1914
+    },
+    {
+     "text": "Germaniyada yakshanba dam olish kuni deb eʼlon qilindi",
+     "year": 1891
+    },
+    {
+     "text": "Fransiya Tunisni bosib oldi",
+     "year": 1881
+    },
+    {
+     "text": "Albaniya mustaqillikka erishdi",
+     "year": 1912
+    },
+    {
+     "text": "Fransiya pensiya toʻgʻrisida qonun qabul qildi",
+     "year": 1910
+    },
+    {
+     "text": "“Uchlar ittifoqi” tashkil etildi",
+     "year": 1882
+    }
+   ],
+   "options": {
+    "A": "2, 1, 3, 4, 5, 6",
+    "B": "3, 2, 1, 4, 5, 6",
+    "C": "3, 6, 2, 5, 4, 1",
+    "D": "2, 3, 1, 4, 6, 5"
+   },
+   "correct": "C",
+   "flags": [],
+   "verified": false,
+   "src_page": 1
+  },
+  {
+   "no": 5,
+   "type": "matching",
+   "points": 3.2,
+   "stem": "Quyida berilgan atamalar va ularning izohi toʻgʻri moslashtirilgan javobni toping.",
+   "items": null,
+   "options": {
+    "A": "I-b, II-e, III-f, IV-c",
+    "B": "I-b, II-f, III-b, IV-c",
+    "C": "I-e, II-a, III-b, IV-c",
+    "D": "I-a, II-e, III-b, IV-c"
+   },
+   "correct": "C",
+   "flags": [
+    "Manba matni: 'moʼtadil' — skanda 'moʻtadil' shaklida; 'sur’atlarining' belgisi tekshirilsin"
+   ],
+   "verified": false,
+   "src_page": 1,
+   "left": {
+    "I": "Taktika",
+    "II": "Pozitsiya",
+    "III": "Retsessiya",
+    "IV": "Subsidiya"
+   },
+   "right": {
+    "a": "Holat, maʼlum voqea yoki hodisaga nisbatan munosabat",
+    "b": "Iqtisodiyotda ishlab chiqarishning nisbatan moʼtadil pasayishini yoki iqtisodiy oʻsish sur’atlarining sekinlashuvi",
+    "c": "Davlat yoki boshqa biron-bir muassasa tomonidan boshqa davlat, muassasa, alohida shaxsga koʻrsatiladigan moliyaviy yordam",
+    "d": "Mafkuraviy rejim shakli boʻlib, totalitar jamiyatda aholini keng miqyosda ommaviy ravishda mafkuraviy qayta tarbiyalash vositasidir",
+    "e": "Koʻzlangan maqsadga erishish uchun qoʻllaniladigan usul va vositalar yigʻindisi",
+    "f": "Suveren davlatlar oʻrtasida tovarlar, xizmatlar, moliya, investitsiya, ishchi kuchi erkin harakatlanadigan iqtisodiy kenglikni tashkil qilish"
+   }
+  },
+  {
+   "no": 6,
+   "type": "matching",
+   "points": 3.2,
+   "stem": "Quyida berilgan atamalar va ularning izohi toʻgʻri moslashtirilgan javobni toping.",
+   "items": null,
+   "options": {
+    "A": "I-c, II-d, III-a, IV-b",
+    "B": "I-c, II-d, III-f, IV-b",
+    "C": "I-c, II-d, III-a, IV-e",
+    "D": "I-f, II-d, III-a, IV-b"
+   },
+   "correct": "A",
+   "flags": [],
+   "verified": false,
+   "src_page": 2,
+   "left": {
+    "I": "Bakalavr",
+    "II": "Aeronavigatsiya",
+    "III": "Skrining",
+    "IV": "Baynalmilal"
+   },
+   "right": {
+    "a": "Maxsus usullar yordamida kasallikni erta va tez aniqlash uchun aholini ommaviy tekshirishdan oʻtkazish",
+    "b": "Xalqaro, umuminsoniy, umumxalqiy mazmunlarda qoʻllaniladi",
+    "c": "Oliy taʼlim dasturining birinchi bosqichini tugallagan talabalarning ilmiy darajasi",
+    "d": "Uchish apparatlarini tegishli asbob va vositalar yordamida belgilangan yoʻldan olib borish haqidagi fan",
+    "e": "Diniy ishonch, eʼtiqod; shu bilan birga mazhab mazmuniga ega tushuncha",
+    "f": "Xristian cherkovlari uchun ruhoniylar tayyorlaydigan oʻquv yurti"
+   }
+  },
+  {
+   "no": 7,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Tarixiy shaxsni aniqlang.\nU oʻz davrining yirik madaniyat va davlat arbobi edi. U vatanini dunyoning eng rivojlangan davlatlari qatoriga koʻrishni istagan, vatanini tashqi dunyo bilan bogʻlashga intilgan, ilgʻor gʻoyalar bilan toʻlib-toshgan inson edi.",
+   "items": null,
+   "options": {
+    "A": "Bobooxun Salimov",
+    "B": "Islomxoʻja",
+    "C": "Ismoil Gʻaspirali",
+    "D": "U.Asadullaxoʻjayev"
+   },
+   "correct": "B",
+   "flags": [
+    "Variant C skanda 'Ismoil Gʻspirali' — imlo xatosi, 'Gaspirali' bo‘lishi mumkin"
+   ],
+   "verified": false,
+   "src_page": 2
+  },
+  {
+   "no": 8,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Tarixiy shaxsni aniqlang.\nU oʻrta asrlarning qobiliyatli, sergʻayrat va nihoyatda zukko davlat arbobi edi. U Movarounnahrni birlashtirib, mustahkam davlat tuzishga intildi.",
+   "items": null,
+   "options": {
+    "A": "Amir Temur",
+    "B": "Husayn Boyqaro",
+    "C": "Tohir Ibn Husayn",
+    "D": "Ismoil Somoniy"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 2
+  },
+  {
+   "no": 9,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Tarixiy davlatni aniqlang.\nXVIII asr boshlariga kelib, imperiya parchalana boshladi. Armiya oʻzining avvalgi qudratini yoʻqotdi, mahalliy hukmdorlarning mustaqilligi oshdi. Hukmdorlarning hokimiyati tobora zaiflashib bordi. Mamlakat feodal tarqoqlikka qaytib, yevropaliklarning kirib kelishi uchun qulay sharoit yaratildi.",
+   "items": null,
+   "options": {
+    "A": "Xitoy",
+    "B": "Hindiston",
+    "C": "Turkiya",
+    "D": "Eron"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 2
+  },
+  {
+   "no": 10,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Quyida berilgan maʼlumotlar qaysi tarixiy davlat haqida ekanligini aniqlang.\nSoliqlar mahalliy amaldorlar tomonidan barot (ijara) tartibida avvaldan bir yoʻlla toʻlab yuborilardi, soʻngra ular aholidan yigʻib olinardi. Aholidan yigʻib olish paytlarida soliqlar, shubhasiz, rasmiylashtirilgan miqdordan oshirib undirilardi.",
+   "items": null,
+   "options": {
+    "A": "Chigʻatoy ulusi",
+    "B": "Qoraxoniylar davlati",
+    "C": "Gʻarbiy turk xoqonligi",
+    "D": "Eftallar davlati"
+   },
+   "correct": "A",
+   "flags": [],
+   "verified": false,
+   "src_page": 3
+  },
+  {
+   "no": 11,
+   "type": "table_fill",
+   "points": 3.2,
+   "stem": "Jadvalda harflar bilan belgilangan kataklarga quyida berilgan maʼlumotlardan moslarini qoʻyib toʻgʻri javobni toping.",
+   "items": null,
+   "options": {
+    "A": "a-2, b-1, c-5, d-4, e-7",
+    "B": "a-2, b-3, c-5, d-4, e-8",
+    "C": "a-3, b-1, c-2, d-5, e-7",
+    "D": "a-2, b-6, c-5, d-6, e-7"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 3,
+   "table": {
+    "headers": [
+     "Davlat",
+     "Inshoatlar",
+     "Davri (asr,yil)"
+    ],
+    "rows": [
+     [
+      "Xitoy",
+      "a",
+      "618-907"
+     ],
+     [
+      "b",
+      "Temir ustun",
+      "c"
+     ],
+     [
+      "Koreya",
+      "d",
+      "e"
+     ]
+    ]
+   },
+   "facts": [
+    "Qutb minor",
+    "Budda haykali",
+    "Hindiston",
+    "Pulguksa",
+    "V-VI",
+    "XIII",
+    "XIV",
+    "XV"
+   ]
+  },
+  {
+   "no": 12,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Quyida berilgan maʼlumotlardan qaysi biri XIX asr Oʻrta Osiyo davlatlari tarixi uchun xos emas?",
+   "items": null,
+   "options": {
+    "A": "Buxoroda Yevropa namunasida ikkita mehmonxona barpo etildi;",
+    "B": "Orenburgda Buxoro amirligi savdogarlarining qarorgohi qurildi",
+    "C": "Qoʻqon xonligi hududi jihatidan Oʻrta Osiyoda eng katta davlatga aylandi;",
+    "D": "Matyoqub pishiq boshchiligida Xonqa, Hazorasp, Bogʻotda dehqonlar qoʻzgʻalon koʻtardi"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 3
+  },
+  {
+   "no": 13,
+   "type": "single",
+   "points": 3.2,
+   "stem": "XX asrda harbiy toʻntarish orqali hokimiyatga kelgan shaxslarni aniqlang.\n1) Porfirio Dias, 2) Muammar Qazzofiy, 3) Jaʼfar Nimeyri, 4) Patrisio Eylvin, 5) Fidel Kastro, 6) Jamol Abdul Nosir",
+   "items": null,
+   "options": {
+    "A": "2, 3, 4, 5, 6",
+    "B": "1, 2, 3, 5, 6",
+    "C": "1, 2, 3, 4, 5, 6",
+    "D": "2, 3, 5, 6"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 3
+  },
+  {
+   "no": 14,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Quyidagilardan Oʻzbekiston Respublikasida 1991-yil 5-sentyabrda imzolangan hujjatni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "“Konstitutsiya ishlab chiqish zarurligi toʻgʻrisida”gi qaror",
+    "B": "Lenin nomidagi maydonni Mustaqillik maydoni deb nomlash toʻgʻrisidagi qaror",
+    "C": "Ichki ishlar vazirligi Oʻzbekiston SSR tasarrufiga boʻysundirish toʻgʻridagi qaror",
+    "D": "“Oʻzbekiston Respublikasi Mudofaa ishlari Vazirligi tuzish toʻgʻrisida”gi Prezident farmoni"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 3
+  },
+  {
+   "no": 15,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Quyidagilardan mustaqil Oʻzbekiston tarixiga oid toʻgʻri berilgan maʼlumotlarni aniqlang.",
+   "items": [
+    "Minor masjidi qurilishi 2014-yili boshlanib, 2015-yil oktyabrda ochildi;",
+    "2001-yil avgustda Toshkent metrosining Yunusobod yoʻnalishi 6 ta bekatdan iborat birinchi qismi foydalanishga topshirildi;",
+    "2017-yil 15-dekabrdagi farmon asosida Oʻzbekiston Islom Akademiyasi ochildi;",
+    "2008-yil Oʻzbekistonda oʻlim jazosi bekor qilingan;",
+    "Oʻzbekiston ShHT ga 2000-yili aʼzo boʻlgan;",
+    "1993-yil martda Oʻzbekiston BMT ga teng huquqli ravishda kirdi;",
+    "2001-yil Oʻzbek davlat akademik drama teatriga “Milliy teatr” maqomi berildi."
+   ],
+   "options": {
+    "A": "1, 2, 5, 6, 7",
+    "B": "1, 2, 4, 7",
+    "C": "2, 3, 4, 7",
+    "D": "1, 2, 3, 4, 6"
+   },
+   "correct": "C",
+   "flags": [
+    "Skanda 4 ta raqam tagiga chizilgan (2014, 2015, 2000, 1993) — talabaga ko‘rsatiladimi, aniqlanishi kerak"
+   ],
+   "verified": false,
+   "src_page": 3
+  },
+  {
+   "no": 16,
+   "type": "chronology",
+   "points": 2.2,
+   "stem": "Quyidagi tarixiy voqealar (maʼlumotlar) toʻgʻri xronologik ketma-ketlikda koʻrsatilgan javobni toping.",
+   "items": [
+    {
+     "text": "Amerikalik sotsiolog Daniel Bell “Postindustrial jamiyat” atamasini muomalaga kiritgan",
+     "year": 1962
+    },
+    {
+     "text": "Ingliz muhandisi Richard Trevitik tarixda ilk parovozni konstruksiyaladi",
+     "year": 1804
+    },
+    {
+     "text": "Rus olimi Aleksandr Popov Rossiya fizika-kimyo jamiyati yigʻilishida dunyoda birinchi marta radiotelegramma uzatdi",
+     "year": 1896
+    },
+    {
+     "text": "Amerikalik ixtirochi Tomas Edison 40 soat yonib turuvchi uglerod tolali lampochkani yaratishga muvaffaq boʻldi",
+     "year": 1879
+    },
+    {
+     "text": "Germaniya sanoat ishlab chiqarishning umumiy hajmi boʻyicha dunoda uchinchi oʻringa chiqib oldi",
+     "year": 1880
+    },
+    {
+     "text": "Muhandis V. I. Lopushinskiy yuk lokomotivi ishlab chiqdi",
+     "year": 1895
+    }
+   ],
+   "options": {
+    "A": "2, 4, 6, 5, 3, 1",
+    "B": "1, 2, 3, 5, 4, 6",
+    "C": "2, 1, 3, 5, 6, 4",
+    "D": "2, 4, 5, 6, 3, 1"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 4
+  },
+  {
+   "no": 17,
+   "type": "image",
+   "points": 2.2,
+   "stem": "Xaritada yulduzcha ostida berilgan davlat (hudud) tarixiga oid boʻlmagan maʼlumotlarni toping.",
+   "items": [
+    "1933-yili Adolf Gitler hokimiyatga keldi;",
+    "1910-yili Pensiya toʻgʻrisida qonun qabul qilindi;",
+    "1875-yilda birinchi marta sotsialistik partiya tashkil etildi;",
+    "1881-yilda Shimoliy Afrikada joylashgan Tunisni bosib oldi;",
+    "XIX asr 70-yillarida “Madaniyat uchun kurash” siyosati yurgizilgan;",
+    "1792-yilda birinchi Respublika davri boshlandi;",
+    "XX asr boshlarida mamlakatda pensiya yoshi 65 yosh edi;"
+   ],
+   "options": {
+    "A": "1, 2, 5, 6, 7",
+    "B": "1, 4, 5, 4, 7",
+    "C": "2, 4, 6, 7",
+    "D": "2, 4, 6"
+   },
+   "correct": "D",
+   "flags": [
+    "Xaritada @tarixplaton (Telegram kanal) suv belgisi — mahsulotda oʻz xaritamiz bilan almashtirish kerak",
+    "B variantida '4' ikki marta uchraydi (1, 4, 5, 4, 7) — manba xatosi",
+    "Yulduzcha ko‘rsatgan davlat: Germaniya (xaritadan)"
+   ],
+   "verified": false,
+   "src_page": 4,
+   "image": "/exam-img/v07_q17_map.png"
+  },
+  {
+   "no": 18,
+   "type": "table_select",
+   "points": 3.2,
+   "stem": "Tarixiy voqea va uning natijasi oʻzaro mos berilmagan qatorlarni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "2, 5, 7",
+    "B": "3, 5, 7",
+    "C": "1, 3, 4",
+    "D": "1, 4, 7"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 5,
+   "table": {
+    "headers": [
+     "№",
+     "Voqea",
+     "Natija"
+    ],
+    "rows": [
+     [
+      "1",
+      "Yaponiyada Meydzi islohotlari",
+      "AQSH va Buyuk Britaniya bilan munosabatlari yomonlashdi"
+     ],
+     [
+      "2",
+      "Rossiya-Yaponiya urushi",
+      "Yaponiya Koreya yarimorolini oʻziga qoʻshib oldi"
+     ],
+     [
+      "3",
+      "Buyuk Britaniyada “Ish haqi minimumi toʻgʻrisida”gi qonun qabul qilindi",
+      "Kasallik va ishsizlik sababli sugʻurta toʻlovi joriy etildi"
+     ],
+     [
+      "4",
+      "Muhammad Shayboniyxon pul islohoti",
+      "Hokimiyatning markazlashuviga, xazinaga katta daromad tushishiga olib keldi. Shuningdek, ichki va tashqi savdo-sotiqni yanada rivojlanishi uchun qulay sharoit yaratdi"
+     ],
+     [
+      "5",
+      "Rossiyaga Ernazarbiy elchiligi",
+      "Buxoro amirligi va Rossiya oʻrtasida savdo aloqalarining rivojlanishi"
+     ],
+     [
+      "6",
+      "Italiya-Efiopiya urushi. Adua jangi",
+      "Italiyaning magʻlubiyati"
+     ],
+     [
+      "7",
+      "Qrim urushi",
+      "Rossiya gʻalabasi"
+     ]
+    ]
+   },
+   "facts": []
+  },
+  {
+   "no": 19,
+   "type": "table_fill",
+   "points": 3.2,
+   "stem": "Jadvalda harflar bilan belgilangan kataklarga quyida berilgan maʼlumotlardan moslarini qoʻyib toʻgʻri javobni toping.",
+   "items": null,
+   "options": {
+    "A": "a-12, b-20, c-6, d-4, e-19, f-1, g-14, h-16, i-2, j-7, k-11, l-13",
+    "B": "a-12, b-15, c-6, d-4, e-19, f-21, g-17, h-16, i-8, j-7, k-11, l-13",
+    "C": "a-12, b-20, c-6, d-4, e-19, f-15, g-14, h-16, i-8, j-7, k-11, l-13",
+    "D": "a-12, b-20, c-5, d-4, e-19, f-15, g-14, h-21, i-8, j-7, k-11, l-13"
+   },
+   "correct": "C",
+   "flags": [
+    "Jadvalda 'XIX' asri ikki qatorda uchraydi; 14 va 1 raqamlari ham 'XIX asr' — manba tuzilishi, tekshirilsin"
+   ],
+   "verified": false,
+   "src_page": 5,
+   "table": {
+    "headers": [
+     "Asr",
+     "Oʻzbekiston tarixidagi voqea",
+     "Jahon tarixidagi voqea"
+    ],
+    "rows": [
+     [
+      "a",
+      "Maʼsudbek pul islohoti",
+      "b"
+     ],
+     [
+      "c",
+      "d",
+      "Parxe qirolligi parchalandi"
+     ],
+     [
+      "XVIII",
+      "e",
+      "f"
+     ],
+     [
+      "g",
+      "Andijonda Jadid maktabi ochildi",
+      "h"
+     ],
+     [
+      "i",
+      "j",
+      "Vilson tinchlik dasturini ishlab chiqdi"
+     ],
+     [
+      "XIX",
+      "k",
+      "l"
+     ]
+    ]
+   },
+   "facts": [
+    "XIX asr",
+    "XVII asr",
+    "Samarqandda Xorazmshohga qarshi isyon koʻtarilishi",
+    "Farjak madrasasi ochildi",
+    "XV asr",
+    "X asr",
+    "Xiva xonligida qurgʻoqchilik va hosilsizlik yili boʻldi",
+    "XX asr",
+    "Eftaliylarning Oʻrta Osiyoga kirib kelishi",
+    "V asr",
+    "Qoʻqon xonligida “Poʻlatxon” qoʻzgʻolonining sodir boʻlishi",
+    "XIII asr",
+    "Xalqaro sotsialistik ishchi partiyalari uyushmasi – II Internatsionalning tashkil etilishi",
+    "XIX asr",
+    "Napoleon boshchiligidagi fransuzlar Misrni tashlab chiqishga majbur boʻldi",
+    "Lotin Amerikasi mamlakatlarida iqtisodiyotning sezilarli oʻsishi kuzatildi",
+    "X asr",
+    "Xitoyda Suy sulolasi hukmronligining boshlanishi",
+    "Buxoroda Jul deb nomlangan yangi soliq joriy etildi",
+    "“Marko Polo kitobi” asari yozildi",
+    "Meksikada “Burjua inqilobi” boʻlib oʻtdi"
+   ]
+  },
+  {
+   "no": 20,
+   "type": "venn",
+   "points": 3.2,
+   "stem": "Quyidagi maʼlumotlarni tahlil qilib, Eyler-Venn diagrammasiga mos keladigan javobni aniqlang.\nI — Ismoil Obidov; II — Munavvarqori Abdurashidxonov; III — kesishma (ikkalasiga ham tegishli).",
+   "items": [
+    "Ilk oʻzbek milliy gazetasi asoschisi;",
+    "1904-yildan boshlab oʻlkadagi ijtimoiy-siyosiy, maʼrifiy harakatlarning faol ishtirokchisi;",
+    "“Toʻy” asari muallifi;",
+    "1906-yilda gazeta chop etishni boshladi."
+   ],
+   "options": {
+    "A": "I – 1,3; II – 2; III – 4",
+    "B": "I – 1,5; II – 2; III – 4",
+    "C": "I – 1; II – 2,3; III – 4",
+    "D": "I – 1; II – 2; III – 4"
+   },
+   "correct": "D",
+   "flags": [
+    "B variantida '1,5' — 5-band mavjud emas, manba xatosi bo‘lishi mumkin"
+   ],
+   "verified": false,
+   "src_page": 6,
+   "image": "/exam-img/v07_q20_venn.png"
+  },
+  {
+   "no": 21,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Quyidagilardan oʻz asarini XVI birinchi yarmidagi Xiva tarixiga bagʻishlagan shaxsni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "Xudoyberdi Avaz Muhammad",
+    "B": "Hasanbek Rumlu",
+    "C": "Ogahiy",
+    "D": "Abulgʻoziy Bahodirxon"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 22,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Parij kommunasining tashkil etilishi, qisqa muddatda boʻsada muhim oʻzgartirishlar qilish imkoniyatini berdi. Quyidagilardan shularga oid toʻgʻri BOʻLMAGAN javoblarni aniqlang.",
+   "items": [
+    "Egalari tashlab ketgan korxonalar ishchilariga topshirildi;",
+    "Majburiy va bepul taʼlim joriy etildi;",
+    "Siyosiy tashviqot bilan shugʻullanish ruxsat etildi;",
+    "Lekin xotin-qizlarga saylov huquqi berilmadi;",
+    "Mehnatkashlarning uy-joy haqini toʻlash muddatlari kechiktirildi;",
+    "Davlat xazinasini, banklarni toʻla oʻz qoʻliga oldi;",
+    "Ishlab chiqarish ustidan nazorat oʻrnatdi."
+   ],
+   "options": {
+    "A": "1, 2, 3, 6",
+    "B": "1, 2, 5, 6",
+    "C": "2, 3, 4, 6",
+    "D": "3, 4, 6"
+   },
+   "correct": "D",
+   "flags": [
+    "Manbada 'Mehnatkashlaming' (OCR/imlo), 'Mehnatkashlarning' deb tuzatildi"
+   ],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 23,
+   "type": "single",
+   "points": 2.2,
+   "stem": "XVII asr boshida hokimiyat bir suloladan boshqa sulolaga almashgan davlatlarni aniqlang.",
+   "items": [
+    "Avstriya;",
+    "Prussiya;",
+    "Angliya;",
+    "Rossiya;",
+    "Yaponiya."
+   ],
+   "options": {
+    "A": "1, 3, 5",
+    "B": "3, 5",
+    "C": "2, 4, 5",
+    "D": "1, 2"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 24,
+   "type": "single",
+   "points": 1.3,
+   "stem": "XVI asrda Buxoro xonligida mavjud boʻlgan harbiy soliqni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "Zobitona",
+    "B": "Madadi lashkar",
+    "C": "Qalqon puli",
+    "D": "Jul"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 25,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Buxoro amirligida mavjud boʻlgan jul soligʻi qanday yigʻim boʻlgan?",
+   "items": null,
+   "options": {
+    "A": "urush kelib chiqqanda qoʻshinning harajati uchun yigʻiladigan soliq",
+    "B": "bogʻlar va polizlardan olingan daromadlar uchun alohida yigʻiladigan mablagʻ",
+    "C": "xon farmonlarini eʼlon qiluvchi jarchi foydasiga yigʻiladigan mablagʻ",
+    "D": "harbiy harakatlar chogʻida yigʻiladigan favqulodda soliq"
+   },
+   "correct": "A",
+   "flags": [
+    "A va D mazmunan o‘xshash — savol noaniq bo‘lishi mumkin; mutaxassis tekshiruvi kerak"
+   ],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 26,
+   "type": "single",
+   "points": 2.2,
+   "stem": "Quyidagilardan X asrda parchalangan (a) va vujudga kelgan (b) davlatlar berilgan javobni aniqlang.\n1) Koryo davlati 2) Tohiriylar davlati 3) Aksum davlati 4) Parxe davlati",
+   "items": null,
+   "options": {
+    "A": "a – 1, b – 2",
+    "B": "a – 2, b – 1",
+    "C": "a – 4, b – 1",
+    "D": "a – 3, b – 2"
+   },
+   "correct": "C",
+   "flags": [],
+   "verified": false,
+   "src_page": 6
+  },
+  {
+   "no": 27,
+   "type": "matching",
+   "points": 2.2,
+   "stem": "Xitoyda 1897-1898-yillarda buyuk davlatlar tomonidan egallangan (taʼsir doirasiga kiritgan) hududlar toʻgʻri muvofiq berilgan javobni aniqlang.",
+   "items": null,
+   "options": {
+    "A": "1 – a, 2 – e, 3 – b, 4 – d, 5 – c",
+    "B": "1 – a, 2 – e, 3 – d, 4 – b, 5 – c",
+    "C": "1 – a, 2 – e, 3 – d, 4 – c, 5 – d",
+    "D": "1 – a, 2 – d, 3 – e, 4 – b, 5 – c"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 6,
+   "left": {
+    "1": "Germaniya",
+    "2": "Fransiya",
+    "3": "Rossiya",
+    "4": "Buyuk Britaniya",
+    "5": "Yaponiya"
+   },
+   "right": {
+    "a": "Szyaochjouvan va Shandun",
+    "b": "Veyxayvey bandargohi va Yanszi daryosi havzasi",
+    "c": "Futszyan viloyati",
+    "d": "Port-Artur (Lyuyshun)",
+    "e": "Guamchjuvan koʻrfazi va Yunan viloyati"
+   }
+  },
+  {
+   "no": 28,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Oʻrta Osiyo davlatlarida Buzrukxoʻja nomi bilan ataluvchi madrasa qaysi sulola davrida qurilgan?",
+   "items": null,
+   "options": {
+    "A": "Mangʻitlar",
+    "B": "Ashtarxoniylar",
+    "C": "Minglar",
+    "D": "Shayboniylar"
+   },
+   "correct": "C",
+   "flags": [],
+   "verified": false,
+   "src_page": 7
+  },
+  {
+   "no": 29,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Bu asar Yaqin va Oʻrta Sharq mamlakatlari tarixining islom tarqalishidan to 1231-yilgacha boʻlgan davr haqida maʼlumot beruvchi eng qimmatli manbalardan biri sanaladi. Muallif Jaloliddinning faoliyatiga keng oʻrin ajratadi va koʻpincha oʻzining muhim va aniq maʼlumotlari bilan boshqa manbalarni sezilarli darajada toʻldiradi.\nUshbu asar va uning muallifini aniqlang.",
+   "items": null,
+   "options": {
+    "A": "Shihobiddin ibn Ahmad an-Nasaviy “Siyrat as-sulton Jalol ad-Din Mengburni”",
+    "B": "Mirxond “Ravzat us-safo”",
+    "C": "Mirzo Ulugʻbek “Tarixi arba’ ulus”",
+    "D": "Ibn al-Asirning “al-Komil fit-tarix”"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 7
+  },
+  {
+   "no": 30,
+   "type": "matching",
+   "points": 2.2,
+   "stem": "Mualliflar va ularning asarlari toʻgʻri moslashtirilgan javobni toping.",
+   "items": null,
+   "options": {
+    "A": "I-b, II-e, III-c",
+    "B": "I-b, II-f, III-a",
+    "C": "I-b, II-e, III-d",
+    "D": "I-b, II-e, III-a"
+   },
+   "correct": "A",
+   "flags": [],
+   "verified": false,
+   "src_page": 8,
+   "left": {
+    "I": "Muhammad Haydar",
+    "II": "Mahmud Zamaxshariy",
+    "III": "Muhammad Amin Buxoriy"
+   },
+   "right": {
+    "a": "“Abdullanoma”",
+    "b": "“Tarixi Rashidiy”",
+    "c": "“Ubaydullanoma”",
+    "d": "“Fathnomayi Sultoniy”",
+    "e": "“Al-Kashshof”",
+    "f": "“Xoqonga foydali masalahatlar”"
+   }
+  },
+  {
+   "no": 31,
+   "type": "matching",
+   "points": 2.2,
+   "stem": "Chizmada keltirilgan shaxslar va ularga tegishli maʼlumotlar toʻgʻri moslashtirilgan javobni toping.",
+   "items": null,
+   "options": {
+    "A": "I – c, II – e, III – f",
+    "B": "I – c, II – d, III – e",
+    "C": "I – b, II – e, III – f",
+    "D": "I – b, II – d, III – f"
+   },
+   "correct": "B",
+   "flags": [],
+   "verified": false,
+   "src_page": 8,
+   "left": {
+    "I": "F.Beneveni",
+    "II": "A.Byorns",
+    "III": "S. Jukovskiy"
+   },
+   "right": {
+    "a": "“Oʻrta Osiyo boʻylab sayohat” asarini yozgan",
+    "b": "Oʻrta Osiyoga elchiligi natijasida “Estaliklar” asari yozgan",
+    "c": "Buxoro xonini Xivaga qarshi Rossiya bilan ittifoq tuzishga koʻndirishi lozim edi",
+    "d": "Uning elchilik missiyasi Oʻrta Osiyoda Buyuk Britaniya savdosini rivojlantirdi",
+    "e": "“Rossiyaning keyingi 300 yilda Buxoro-Xiva bilan aloqasi” asari muallifi",
+    "f": "Qanotning koʻtarish kuchini aniqlash formulasi asoschisi"
+   }
+  },
+  {
+   "no": 32,
+   "type": "single",
+   "points": 1.3,
+   "stem": "Quyidagi qaysi qatorda bir asrda tashkil topgan davlatlar toʻgʻri juftlashtirib berilgan?",
+   "items": null,
+   "options": {
+    "A": "Dehli sultonligi – Mali davlati",
+    "B": "Lotinlar imperiyasi – Quddus qirolligi",
+    "C": "Qarluqlar davlati – Somoniylar davlati",
+    "D": "Koryo qirolligi – Gʻaznaviylar davlati"
+   },
+   "correct": "D",
+   "flags": [],
+   "verified": false,
+   "src_page": 9,
+   "key_note": "Skanda variantlar yonida qizil rangda asrlar: A XIII-VIII; B XIII-XI; C VIII-IX; D X-X (kalit izohi, talabaga ko‘rsatilmaydi)"
+  },
+  {
+   "no": "33-35",
+   "type": "block_matching",
+   "stem": "33-35-test topshiriqlariga mos keluvchi javoblarni (A-F) javob variantlaridan tanlang.",
+   "shared_options": {
+    "A": {
+     "text": "Liviya Italiya mustamlakasiga aylandi",
+     "year": 1912
+    },
+    "B": {
+     "text": "Buyuk Britaniyada koʻmir qazuvchilarning 6 haftalik ish tashlashi boʻlib oʻtdi",
+     "year": 1911
+    },
+    "C": {
+     "text": "Germaniya sanoat ishlab chiqarish boʻyicha AQSH dan keyingi ikkinchi oʻringa chiqib oldi",
+     "year": 1913
+    },
+    "D": {
+     "text": "Buyuk Britaniya San-Stefano shartnomasini tan olmay Berlin kongressi chaqirilishiga erishdi",
+     "year": 1878
+    },
+    "E": {
+     "text": "“Kuchukqaynarji” shartnomasi imzolandi",
+     "year": 1774
+    },
+    "F": {
+     "text": "Xuan Karlos I Portugaliyada taxtga oʻtirdi",
+     "year": 1986
+    }
+   },
+   "questions": [
+    {
+     "no": 33,
+     "points": 2.2,
+     "stem": "Berilgan voqealardan qaysi biri keyiroq sodir boʻlgan?",
+     "correct": "F"
+    },
+    {
+     "no": 34,
+     "points": 2.2,
+     "stem": "Qaysi voqea natijasida Buyuk Britaniya Kipr orolini qoʻlga kiritdi?",
+     "correct": "D"
+    },
+    {
+     "no": 35,
+     "points": 2.2,
+     "stem": "Qaysi voqea natijasida Rossiya Qora dengizga chiqish huquqiga ega boʻldi?",
+     "correct": "E"
+    }
+   ],
+   "flags": [
+    "F varianti faktik xato: Xuan Karlos I Ispaniya qiroli (1975), Portugaliya emas; javob (F — eng keyingi) o‘zgarmaydi, lekin variant matni tuzatilishi kerak"
+   ],
+   "verified": false,
+   "src_page": 9
+  },
+  {
+   "no": 36,
+   "type": "open",
+   "stem": "Toʻrtinchi Salib yurishlari 1202-1204-yillarda boʻlib oʻtgan.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Salibchilar qoʻshinini kemalarda Falastinga olib oʻtishni oʻz zimmasiga olgan davlatni aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Venetsiya"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu Salib yurishi qaysi shaharni egallanishiga sabab boʻlganini yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Konstantinopol"
+     ]
+    }
+   ],
+   "flags": [
+    "Faktik izoh: IV salib yurishi Falastinga emas, Misrga mo‘ljallangan edi; savol matni manbada shunday — mutaxassis tekshirsin"
+   ],
+   "verified": false,
+   "src_page": 9
+  },
+  {
+   "no": 37,
+   "type": "open",
+   "stem": "1889-yilda Yaponiyada Konstitutsiya qabul qilindi.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Konstitutsiyaga muvofiq mamlakatda ikki palatali parlament tashkil etiladi. Ushbu parlament Yuqori palatasi nomini yozing.",
+     "points": 1.5,
+     "kind": "text",
+     "accepted": [
+      "Perlar"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu konstitutsiyasi qaysi davlat konstitutsiyasi namunasi asosida qabul qilinganini yozing.",
+     "points": 1.7,
+     "kind": "text",
+     "accepted": [
+      "Prussiya"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 10
+  },
+  {
+   "no": 38,
+   "type": "open",
+   "stem": "Gʻaznaviylar davlati 1186-yilda butunlay tugatilgan.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Gʻaznaviylar davlati kimning davrida siyosiy nufuzi ortganini aniqlang va yozing.",
+     "points": 1.5,
+     "kind": "text",
+     "accepted": [
+      "Sobuqtegin"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu davlat kimning hukmronligida Sharqning eng qudratli davlatlaridan biriga aylanganini aniqlang va yozing.",
+     "points": 1.7,
+     "kind": "text",
+     "accepted": [
+      "Mahmud Gʻaznaviy"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 10
+  },
+  {
+   "no": 39,
+   "type": "open",
+   "stem": "Ikkinchi Jahon urushidan soʻng bir qator davlatlarda boshqa davlatlardan farq qiluvchi siyosatlar amalga oshirilgan.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Ikkinchi Jahon urushidan soʻng “Yuzta gul” siyosati qaysi davlatda oʻtkazilganligini aniqlang va yozing.",
+     "points": 1.5,
+     "kind": "text",
+     "accepted": [
+      "Xitoy"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ikkinchi Jahon urushidan yakunlangach “Uch yil matonatli mehnat – uch ming yil baxt saodat” shiori qaysi davlatda ekanligini aniqlang va yozing.",
+     "points": 1.7,
+     "kind": "text",
+     "accepted": [
+      "Xitoy"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 10
+  },
+  {
+   "no": 40,
+   "type": "open",
+   "stem": "1945-yil oktyabrda Angliyaning Manchester shahrida V Panafrika kongressi boʻlib oʻtdi.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Natijada Buyuk Britaniya mustamlakasi Oltin Qirgʻoq oʻz mustaqilligini eʼlon qildi va davlat nomini qanday nomga oʻzgartirganligini yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Gana"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Janubiy Afrika Respublikasi (JAR) prezidentligiga 1994-yilda kim saylanganini aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Nelson Mandela"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 11
+  },
+  {
+   "no": 41,
+   "type": "open",
+   "stem": "«Bu ....... xalqining asosiy va deyarli birdan bir hunari dehqonchilikdir»",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Nuqtalar oʻrniga mos keluvchi javoblarni yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "qoraqalpoq"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu taʼrif nechanchi yil chiqqan gazetada yozilganligini aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "year",
+     "accepted": [
+      "1868"
+     ]
+    }
+   ],
+   "flags": [
+    "b javobi (1868) mutaxassis tomonidan tekshirilsin — Turkiston viloyati gazetasi chiqa boshlagan yil bilan mosligi aniq emas"
+   ],
+   "verified": false,
+   "src_page": 11
+  },
+  {
+   "no": 42,
+   "type": "open",
+   "stem": "1842-yilda Xiva shahri tashqi dushmanlardan himoyalanish maqsadida devor bilan oʻrab olindi.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Ushbu devor qaysi Xiva xoni tashabbusi bilan qurilganini aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Olloqulixon"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu tashqi qalʼa (Dishan qalʼa) nechta darvozadan iborat ekanligini yozing.",
+     "points": 1.1,
+     "kind": "number",
+     "accepted": [
+      "10 ta"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 11
+  },
+  {
+   "no": 43,
+   "type": "open",
+   "stem": "1873-yilda Xiva va Rossiya oʻrtasida “Gandimiyon” shartnomasi imzolandi.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Ushbu shartnoma imzolangan vaqtda Rossiya imperatori kim ekanligini aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Aleksandr II"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu shartnomaning nechanchi moddasida Xiva xoni “oʻzini Rossiya imperatorining sodiq quli ekanligi”ni tan oladi?",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Birinchi moddasida"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 12
+  },
+  {
+   "no": 44,
+   "type": "open",
+   "stem": "Ushbu matnni oʻqing va shu asosda berilgan topshiriqlarni bajaring.\n“Bolshevik maddohlardan birining eʼtiroficha, a)......... qoʻrboshilar oʻrtasida eng kuchlisi boʻlgan boʻlsa, b)........ shubhasiz eng xavflisi edi”\nDiqqat! Nuqtalar oʻrniga kerakli maʼlumotni yozing.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "a) nuqtalar oʻrniga",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Madaminbek"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "b) nuqtalar oʻrniga",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Shermuhammadbek"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 12
+  },
+  {
+   "no": 45,
+   "type": "open",
+   "stem": "Bolgariya IX asr boshlariga kelib yirik davlatga aylanadi.",
+   "parts": [
+    {
+     "label": "a",
+     "prompt": "Ushbu davlat asoschisi nomini yozing?",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Asparux"
+     ]
+    },
+    {
+     "label": "b",
+     "prompt": "Ushbu davlat kimning hukmronligida eng qudratli davlatga aylanganini aniqlang va yozing.",
+     "points": 1.1,
+     "kind": "text",
+     "accepted": [
+      "Simeon"
+     ]
+    }
+   ],
+   "flags": [],
+   "verified": false,
+   "src_page": 12
+  }
+ ]
+}
