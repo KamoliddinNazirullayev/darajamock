@@ -22,6 +22,7 @@ export default function ExamApp() {
   const [saveStatus, setSaveStatus] = useState<SaveStatus>("idle");
   const [confirming, setConfirming] = useState(false);
   const [busy, setBusy] = useState(false);
+  const [mapOpen, setMapOpen] = useState(false);
   const deadline = useRef(0);
   const pending = useRef(new Map<string, string>()); // yuborilmagan javoblar (qayta urinish uchun)
   const submitting = useRef(false);
@@ -132,6 +133,11 @@ export default function ExamApp() {
     [questions, answers],
   );
 
+  // savol almashganda sahifa boshidan ko'rsatiladi
+  useEffect(() => {
+    if (phase === "exam") window.scrollTo(0, 0);
+  }, [idx, phase]);
+
   if (phase === "loading") return <main className="center">Yuklanmoqda…</main>;
 
   if (phase === "error")
@@ -168,11 +174,18 @@ export default function ExamApp() {
         <button className="btn small" onClick={() => setConfirming(true)}>Yakunlash</button>
       </header>
 
-      <nav className="map" aria-label="Savollar xaritasi">
-        {questions.map((x, i) => (
-          <button key={x.label} className={`dot${i === idx ? " current" : ""}${answeredLabels.has(x.label) ? " done" : ""}`} onClick={() => setIdx(i)} aria-label={`${x.label}-topshiriq`}>{x.label}</button>
-        ))}
-      </nav>
+      <button type="button" className="map-toggle" aria-expanded={mapOpen} aria-controls="qmap" onClick={() => setMapOpen((o) => !o)}>
+        <span>Topshiriq <b>{idx + 1}</b> / {questions.length}</span>
+        <span className="hint">Javoblangan: {answeredLabels.size}</span>
+        <span aria-hidden="true">{mapOpen ? "▲" : "▼"}</span>
+      </button>
+      {mapOpen && (
+        <nav id="qmap" className="map" aria-label="Savollar xaritasi">
+          {questions.map((x, i) => (
+            <button key={x.label} className={`dot${i === idx ? " current" : ""}${answeredLabels.has(x.label) ? " done" : ""}`} onClick={() => { setIdx(i); setMapOpen(false); }} aria-label={`${x.label}-topshiriq`} aria-current={i === idx ? "step" : undefined}>{x.label}</button>
+          ))}
+        </nav>
+      )}
 
       {q && <QuestionView key={q.label} q={q} answers={answers} onChange={onChange} />}
 

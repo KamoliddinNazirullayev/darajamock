@@ -7,7 +7,8 @@ export const viewport = { width: "device-width", initialScale: 1, viewportFit: "
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="uz">
+    // telegram-web-app.js gidratatsiyadan oldin <html> ga --tg-viewport-* style qo'shadi
+    <html lang="uz" suppressHydrationWarning>
       <body>
         <Script src="https://telegram.org/js/telegram-web-app.js" strategy="beforeInteractive" />
         {children}
