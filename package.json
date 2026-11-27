@@ -9,7 +9,9 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "import:exam": "tsx scripts/import-exam.ts",
-    "bot:webhook": "tsx scripts/set-webhook.ts"
+    "bot:webhook": "tsx scripts/set-webhook.ts",
+    "db:deploy": "drizzle-kit migrate && tsx scripts/import-exam.ts data/exams/v07.json",
+    "vercel-build": "npm run db:deploy && next build && tsx scripts/set-webhook.ts --if-production"
   },
   "dependencies": {
     "drizzle-orm": "^0.45.4",
