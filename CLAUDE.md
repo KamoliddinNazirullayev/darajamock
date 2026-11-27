@@ -8,7 +8,9 @@ Pilot: yopiq, ~20–50 foydalanuvchi, bepul. Kontent: faqat v07 (data/exams/v07.
 - `npm run typecheck`, `npm run build`
 - `DATABASE_URL=... npm run import:exam -- data/exams/v07.json` — variantni bazaga yozish (idempotent)
 - `npx drizzle-kit generate` / `migrate` — migratsiyalar (drizzle/)
-- `TELEGRAM_BOT_TOKEN=... TELEGRAM_WEBHOOK_SECRET=... APP_URL=https://... npm run bot:webhook` — deploy'dan keyin webhook, menyu tugmasi va buyruqlarni o'rnatadi (`-- --delete` o'chiradi)
+- `TELEGRAM_BOT_TOKEN=... APP_URL=https://... npm run bot:webhook` — webhook, menyu tugmasi va buyruqlarni o'rnatadi (`-- --delete` o'chiradi)
+- Vercel `vercel-build`: `db:deploy` (migratsiya + v07 import, idempotent; javoblar urinishga bog'langan, o'chmaydi) → `next build` → production'da webhook (xato bo'lsa faqat ogohlantirish)
+- Webhook maxfiy kaliti `TELEGRAM_WEBHOOK_SECRET` yoki tokendan HMAC (`src/bot/secret.ts`)
 - Muhit o'zgaruvchilari: `.env.example`
 
 ## Arxitektura

@@ -11,7 +11,7 @@ import { importExam } from "../src/db/import";
 async function main() {
   const [file, status = "pilot"] = process.argv.slice(2);
   if (!file) throw new Error("Fayl yo'li kerak: npm run import:exam -- data/exams/v07.json");
-  const url = process.env.DATABASE_URL;
+  const url = process.env.DATABASE_URL_UNPOOLED ?? process.env.DATABASE_URL; // Neon: migratsiya/import pooler'siz
   if (!url) throw new Error("DATABASE_URL o'rnatilmagan");
 
   const prepared = prepareExam(JSON.parse(readFileSync(file, "utf-8")));
